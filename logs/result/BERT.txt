@@ -1,0 +1,107 @@
+Training Pure BERT with LR-1e-06...
+2024-06-22 23:26:26,616 Epoch 1/8, Train Loss: 1.4688, Train Accuracy: 0.3881
+2024-06-22 23:27:47,843 Epoch 1/8, Val Loss: 1.2638, Val Accuracy: 0.5247
+2024-06-22 23:40:44,165 Epoch 2/8, Train Loss: 1.1911, Train Accuracy: 0.5358
+2024-06-22 23:42:08,939 Epoch 2/8, Val Loss: 1.1108, Val Accuracy: 0.5596
+2024-06-22 23:55:11,312 Epoch 3/8, Train Loss: 1.0609, Train Accuracy: 0.5707
+2024-06-22 23:56:35,447 Epoch 3/8, Val Loss: 1.0096, Val Accuracy: 0.5752
+2024-06-23 00:09:39,404 Epoch 4/8, Train Loss: 0.9835, Train Accuracy: 0.5910
+2024-06-23 00:11:04,557 Epoch 4/8, Val Loss: 0.9705, Val Accuracy: 0.5854
+2024-06-23 00:24:11,739 Epoch 5/8, Train Loss: 0.9294, Train Accuracy: 0.6071
+2024-06-23 00:25:36,968 Epoch 5/8, Val Loss: 0.9449, Val Accuracy: 0.5944
+2024-06-23 00:38:43,391 Epoch 6/8, Train Loss: 0.8865, Train Accuracy: 0.6212
+2024-06-23 00:40:09,815 Epoch 6/8, Val Loss: 0.9024, Val Accuracy: 0.6124
+2024-06-23 00:53:19,034 Epoch 7/8, Train Loss: 0.8550, Train Accuracy: 0.6278
+2024-06-23 00:54:43,862 Epoch 7/8, Val Loss: 0.9350, Val Accuracy: 0.6002
+2024-06-23 01:07:49,493 Epoch 8/8, Train Loss: 0.8277, Train Accuracy: 0.6406
+2024-06-23 01:09:14,202 Epoch 8/8, Val Loss: 0.9415, Val Accuracy: 0.5942
+
+Training Pure BERT with LR-6e-06...
+2024-06-23 01:22:18,986 Epoch 1/8, Train Loss: 1.1361, Train Accuracy: 0.5308
+2024-06-23 01:23:44,688 Epoch 1/8, Val Loss: 0.9365, Val Accuracy: 0.6042
+2024-06-23 01:36:53,208 Epoch 2/8, Train Loss: 0.8531, Train Accuracy: 0.6257
+2024-06-23 01:38:19,067 Epoch 2/8, Val Loss: 0.9252, Val Accuracy: 0.6173
+2024-06-23 01:51:26,990 Epoch 3/8, Train Loss: 0.7642, Train Accuracy: 0.6627
+2024-06-23 01:52:51,616 Epoch 3/8, Val Loss: 0.8258, Val Accuracy: 0.6499
+2024-06-23 02:05:51,804 Epoch 4/8, Train Loss: 0.6875, Train Accuracy: 0.6940
+2024-06-23 02:07:16,067 Epoch 4/8, Val Loss: 0.7818, Val Accuracy: 0.6698
+2024-06-23 02:20:14,279 Epoch 5/8, Train Loss: 0.6230, Train Accuracy: 0.7259
+2024-06-23 02:21:37,751 Epoch 5/8, Val Loss: 0.8386, Val Accuracy: 0.6613
+2024-06-23 02:34:33,612 Epoch 6/8, Train Loss: 0.5563, Train Accuracy: 0.7589
+2024-06-23 02:35:55,028 Epoch 6/8, Val Loss: 0.8695, Val Accuracy: 0.6581
+2024-06-23 02:48:46,748 Epoch 7/8, Train Loss: 0.4946, Train Accuracy: 0.7912
+2024-06-23 02:50:08,136 Epoch 7/8, Val Loss: 0.9014, Val Accuracy: 0.6639
+2024-06-23 03:03:00,323 Epoch 8/8, Train Loss: 0.4332, Train Accuracy: 0.8209
+2024-06-23 03:04:21,885 Epoch 8/8, Val Loss: 0.9066, Val Accuracy: 0.6775
+
+Training Pure BERT with LR-1e-05...
+2024-06-23 03:17:14,949 Epoch 1/8, Train Loss: 1.0828, Train Accuracy: 0.5322
+2024-06-23 03:18:36,795 Epoch 1/8, Val Loss: 0.9193, Val Accuracy: 0.5967
+2024-06-23 03:31:29,077 Epoch 2/8, Train Loss: 0.8151, Train Accuracy: 0.6439
+2024-06-23 03:32:50,294 Epoch 2/8, Val Loss: 0.8208, Val Accuracy: 0.6470
+2024-06-23 03:45:42,288 Epoch 3/8, Train Loss: 0.6976, Train Accuracy: 0.6973
+2024-06-23 03:47:03,886 Epoch 3/8, Val Loss: 0.8251, Val Accuracy: 0.6574
+2024-06-23 03:59:55,307 Epoch 4/8, Train Loss: 0.5906, Train Accuracy: 0.7496
+2024-06-23 04:01:16,541 Epoch 4/8, Val Loss: 0.8912, Val Accuracy: 0.6609
+2024-06-23 04:14:07,892 Epoch 5/8, Train Loss: 0.4801, Train Accuracy: 0.8007
+2024-06-23 04:15:29,411 Epoch 5/8, Val Loss: 0.9120, Val Accuracy: 0.6691
+2024-06-23 04:28:20,586 Epoch 6/8, Train Loss: 0.3875, Train Accuracy: 0.8449
+2024-06-23 04:29:41,974 Epoch 6/8, Val Loss: 1.0603, Val Accuracy: 0.6476
+2024-06-23 04:42:33,541 Epoch 7/8, Train Loss: 0.3095, Train Accuracy: 0.8777
+2024-06-23 04:43:54,959 Epoch 7/8, Val Loss: 1.0670, Val Accuracy: 0.6676
+2024-06-23 04:56:46,254 Epoch 8/8, Train Loss: 0.2413, Train Accuracy: 0.9092
+2024-06-23 04:58:07,429 Epoch 8/8, Val Loss: 1.1090, Val Accuracy: 0.6628
+
+Training Pure BERT with LR-6e-05...
+2024-06-23 05:10:59,765 Epoch 1/8, Train Loss: 0.9851, Train Accuracy: 0.5702
+2024-06-23 05:12:21,021 Epoch 1/8, Val Loss: 0.8833, Val Accuracy: 0.6211
+2024-06-23 05:25:12,407 Epoch 2/8, Train Loss: 0.7705, Train Accuracy: 0.6588
+2024-06-23 05:26:33,626 Epoch 2/8, Val Loss: 0.8052, Val Accuracy: 0.6614
+2024-06-23 05:39:25,192 Epoch 3/8, Train Loss: 0.6202, Train Accuracy: 0.7336
+2024-06-23 05:40:46,295 Epoch 3/8, Val Loss: 0.9158, Val Accuracy: 0.6369
+2024-06-23 05:53:36,923 Epoch 4/8, Train Loss: 0.4931, Train Accuracy: 0.7913
+2024-06-23 05:54:57,466 Epoch 4/8, Val Loss: 0.9743, Val Accuracy: 0.6564
+2024-06-23 06:07:46,142 Epoch 5/8, Train Loss: 0.3791, Train Accuracy: 0.8429
+2024-06-23 06:09:07,144 Epoch 5/8, Val Loss: 0.9770, Val Accuracy: 0.6611
+2024-06-23 06:21:55,908 Epoch 6/8, Train Loss: 0.2868, Train Accuracy: 0.8879
+2024-06-23 06:23:16,579 Epoch 6/8, Val Loss: 1.1482, Val Accuracy: 0.6460
+2024-06-23 06:36:04,882 Epoch 7/8, Train Loss: 0.2211, Train Accuracy: 0.9172
+2024-06-23 06:37:25,391 Epoch 7/8, Val Loss: 1.2816, Val Accuracy: 0.6557
+2024-06-23 06:50:13,083 Epoch 8/8, Train Loss: 0.1766, Train Accuracy: 0.9373
+2024-06-23 06:51:33,616 Epoch 8/8, Val Loss: 1.3156, Val Accuracy: 0.6494
+
+Training Pure BERT with LR-1e-04...
+2024-06-23 07:04:20,435 Epoch 1/8, Train Loss: 1.6149, Train Accuracy: 0.2026
+2024-06-23 07:05:40,368 Epoch 1/8, Val Loss: 1.6216, Val Accuracy: 0.2023
+2024-06-23 07:18:26,780 Epoch 2/8, Train Loss: 1.6134, Train Accuracy: 0.2022
+2024-06-23 07:19:46,812 Epoch 2/8, Val Loss: 1.6095, Val Accuracy: 0.2023
+2024-06-23 07:32:33,037 Epoch 3/8, Train Loss: 1.6110, Train Accuracy: 0.2011
+2024-06-23 07:33:53,062 Epoch 3/8, Val Loss: 1.6117, Val Accuracy: 0.2023
+2024-06-23 07:46:39,290 Epoch 4/8, Train Loss: 1.6107, Train Accuracy: 0.2026
+2024-06-23 07:47:59,390 Epoch 4/8, Val Loss: 1.6095, Val Accuracy: 0.2023
+2024-06-23 08:00:45,554 Epoch 5/8, Train Loss: 1.6108, Train Accuracy: 0.1986
+2024-06-23 08:02:05,470 Epoch 5/8, Val Loss: 1.6094, Val Accuracy: 0.2060
+2024-06-23 08:14:51,403 Epoch 6/8, Train Loss: 1.6095, Train Accuracy: 0.2017
+2024-06-23 08:16:11,272 Epoch 6/8, Val Loss: 1.6094, Val Accuracy: 0.2023
+2024-06-23 08:28:57,342 Epoch 7/8, Train Loss: 1.6095, Train Accuracy: 0.2030
+2024-06-23 08:30:17,262 Epoch 7/8, Val Loss: 1.6110, Val Accuracy: 0.1938
+2024-06-23 08:43:03,657 Epoch 8/8, Train Loss: 1.6095, Train Accuracy: 0.2005
+2024-06-23 08:44:23,746 Epoch 8/8, Val Loss: 1.6098, Val Accuracy: 0.1928
+
+Training Pure BERT with LR-6e-04...
+2024-06-23 08:56:51,153 Epoch 1/8, Train Loss: 1.6165, Train Accuracy: 0.1982
+2024-06-23 08:58:10,257 Epoch 1/8, Val Loss: 1.6095, Val Accuracy: 0.2060
+2024-06-23 09:10:28,703 Epoch 2/8, Train Loss: 1.6096, Train Accuracy: 0.2009
+2024-06-23 09:11:47,788 Epoch 2/8, Val Loss: 1.6097, Val Accuracy: 0.1938
+2024-06-23 09:24:16,562 Epoch 3/8, Train Loss: 1.6095, Train Accuracy: 0.2007
+2024-06-23 09:25:37,182 Epoch 3/8, Val Loss: 1.6097, Val Accuracy: 0.1928
+2024-06-23 09:37:58,597 Epoch 4/8, Train Loss: 1.6095, Train Accuracy: 0.1986
+2024-06-23 09:39:17,917 Epoch 4/8, Val Loss: 1.6098, Val Accuracy: 0.1928
+2024-06-23 09:51:38,524 Epoch 5/8, Train Loss: 1.6094, Train Accuracy: 0.1980
+2024-06-23 09:52:57,815 Epoch 5/8, Val Loss: 1.6098, Val Accuracy: 0.1928
+2024-06-23 10:05:19,320 Epoch 6/8, Train Loss: 1.6094, Train Accuracy: 0.1992
+2024-06-23 10:06:38,971 Epoch 6/8, Val Loss: 1.6098, Val Accuracy: 0.1928
+2024-06-23 10:19:00,721 Epoch 7/8, Train Loss: 1.6094, Train Accuracy: 0.2007
+2024-06-23 10:20:20,743 Epoch 7/8, Val Loss: 1.6100, Val Accuracy: 0.1928
+2024-06-23 10:32:42,988 Epoch 8/8, Train Loss: 1.6094, Train Accuracy: 0.2009
+2024-06-23 10:34:02,936 Epoch 8/8, Val Loss: 1.6098, Val Accuracy: 0.1938

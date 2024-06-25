@@ -1,0 +1,107 @@
+Training with Guassian Noise of 10000 length...
+2024-06-22 23:46:17,041 Epoch 1/8, Train Loss: 1.1282, Train Accuracy: 0.4816
+2024-06-22 23:47:39,667 Epoch 1/8, Val Loss: 0.9973, Val Accuracy: 0.5446
+2024-06-23 00:00:26,719 Epoch 2/8, Train Loss: 0.8319, Train Accuracy: 0.6312
+2024-06-23 00:01:49,699 Epoch 2/8, Val Loss: 0.8132, Val Accuracy: 0.6303
+2024-06-23 00:14:36,109 Epoch 3/8, Train Loss: 0.6959, Train Accuracy: 0.7098
+2024-06-23 00:15:59,282 Epoch 3/8, Val Loss: 0.8165, Val Accuracy: 0.6327
+2024-06-23 00:28:47,276 Epoch 4/8, Train Loss: 0.5797, Train Accuracy: 0.7713
+2024-06-23 00:30:11,093 Epoch 4/8, Val Loss: 0.8516, Val Accuracy: 0.6243
+2024-06-23 00:43:02,121 Epoch 5/8, Train Loss: 0.4726, Train Accuracy: 0.8255
+2024-06-23 00:44:26,445 Epoch 5/8, Val Loss: 0.9267, Val Accuracy: 0.6218
+2024-06-23 00:57:17,219 Epoch 6/8, Train Loss: 0.3770, Train Accuracy: 0.8677
+2024-06-23 00:58:40,400 Epoch 6/8, Val Loss: 0.8589, Val Accuracy: 0.6726
+2024-06-23 01:11:29,280 Epoch 7/8, Train Loss: 0.2861, Train Accuracy: 0.9047
+2024-06-23 01:12:52,826 Epoch 7/8, Val Loss: 0.9611, Val Accuracy: 0.6577
+2024-06-23 01:25:41,344 Epoch 8/8, Train Loss: 0.2121, Train Accuracy: 0.9321
+2024-06-23 01:27:05,526 Epoch 8/8, Val Loss: 1.0524, Val Accuracy: 0.6623
+
+Training with Guassian Noise of 1000 length...
+2024-06-23 01:39:56,578 Epoch 1/8, Train Loss: 1.1229, Train Accuracy: 0.4931
+2024-06-23 01:41:20,009 Epoch 1/8, Val Loss: 0.9378, Val Accuracy: 0.5584
+2024-06-23 01:54:06,761 Epoch 2/8, Train Loss: 0.8548, Train Accuracy: 0.6125
+2024-06-23 01:55:28,483 Epoch 2/8, Val Loss: 0.9534, Val Accuracy: 0.5894
+2024-06-23 02:08:07,527 Epoch 3/8, Train Loss: 0.7386, Train Accuracy: 0.6707
+2024-06-23 02:09:30,484 Epoch 3/8, Val Loss: 0.8515, Val Accuracy: 0.6273
+2024-06-23 02:22:08,776 Epoch 4/8, Train Loss: 0.6447, Train Accuracy: 0.7160
+2024-06-23 02:23:29,694 Epoch 4/8, Val Loss: 0.8030, Val Accuracy: 0.6626
+2024-06-23 02:36:03,550 Epoch 5/8, Train Loss: 0.5526, Train Accuracy: 0.7619
+2024-06-23 02:37:22,674 Epoch 5/8, Val Loss: 0.8460, Val Accuracy: 0.6700
+2024-06-23 02:49:52,939 Epoch 6/8, Train Loss: 0.4581, Train Accuracy: 0.8083
+2024-06-23 02:51:12,104 Epoch 6/8, Val Loss: 0.9196, Val Accuracy: 0.6509
+2024-06-23 03:03:42,738 Epoch 7/8, Train Loss: 0.3708, Train Accuracy: 0.8484
+2024-06-23 03:05:01,913 Epoch 7/8, Val Loss: 0.9115, Val Accuracy: 0.6792
+2024-06-23 03:17:32,447 Epoch 8/8, Train Loss: 0.2992, Train Accuracy: 0.8841
+2024-06-23 03:18:51,648 Epoch 8/8, Val Loss: 1.1200, Val Accuracy: 0.6487
+
+Training with Guassian Noise of 256 length...
+2024-06-23 03:31:23,389 Epoch 1/8, Train Loss: 1.0941, Train Accuracy: 0.5047
+2024-06-23 03:32:42,109 Epoch 1/8, Val Loss: 0.9366, Val Accuracy: 0.5777
+2024-06-23 03:45:13,648 Epoch 2/8, Train Loss: 0.8425, Train Accuracy: 0.6221 
+2024-06-23 03:46:32,361 Epoch 2/8, Val Loss: 0.8564, Val Accuracy: 0.6074
+2024-06-23 03:59:03,563 Epoch 3/8, Train Loss: 0.7411, Train Accuracy: 0.6727
+2024-06-23 04:00:22,291 Epoch 3/8, Val Loss: 0.8059, Val Accuracy: 0.6454
+2024-06-23 04:12:53,243 Epoch 4/8, Train Loss: 0.6458, Train Accuracy: 0.7136
+2024-06-23 04:14:12,329 Epoch 4/8, Val Loss: 0.9764, Val Accuracy: 0.6051
+2024-06-23 04:26:43,495 Epoch 5/8, Train Loss: 0.5559, Train Accuracy: 0.7579
+2024-06-23 04:28:02,316 Epoch 5/8, Val Loss: 0.8561, Val Accuracy: 0.6574
+2024-06-23 04:40:33,236 Epoch 6/8, Train Loss: 0.4665, Train Accuracy: 0.8056
+2024-06-23 04:41:52,138 Epoch 6/8, Val Loss: 0.9537, Val Accuracy: 0.6557
+2024-06-23 04:54:23,263 Epoch 7/8, Train Loss: 0.3853, Train Accuracy: 0.8430
+2024-06-23 04:55:42,329 Epoch 7/8, Val Loss: 0.9223, Val Accuracy: 0.6815
+2024-06-23 05:08:13,898 Epoch 8/8, Train Loss: 0.3170, Train Accuracy: 0.8761
+2024-06-23 05:09:32,712 Epoch 8/8, Val Loss: 1.0501, Val Accuracy: 0.6710
+
+Training with Guassian Noise of 64 length...
+2024-06-23 05:22:03,153 Epoch 1/8, Train Loss: 1.0683, Train Accuracy: 0.5399
+2024-06-23 05:23:22,389 Epoch 1/8, Val Loss: 0.8842, Val Accuracy: 0.6066
+2024-06-23 05:35:52,401 Epoch 2/8, Train Loss: 0.8004, Train Accuracy: 0.6480
+2024-06-23 05:37:11,666 Epoch 2/8, Val Loss: 0.8673, Val Accuracy: 0.6131
+2024-06-23 05:49:41,430 Epoch 3/8, Train Loss: 0.6797, Train Accuracy: 0.6992
+2024-06-23 05:51:00,452 Epoch 3/8, Val Loss: 0.8433, Val Accuracy: 0.6450
+2024-06-23 06:03:29,753 Epoch 4/8, Train Loss: 0.5700, Train Accuracy: 0.7515
+2024-06-23 06:04:48,569 Epoch 4/8, Val Loss: 0.8227, Val Accuracy: 0.6643
+2024-06-23 06:17:17,573 Epoch 5/8, Train Loss: 0.4627, Train Accuracy: 0.8019
+2024-06-23 06:18:36,438 Epoch 5/8, Val Loss: 0.9191, Val Accuracy: 0.6579
+2024-06-23 06:31:05,664 Epoch 6/8, Train Loss: 0.3826, Train Accuracy: 0.8385
+2024-06-23 06:32:24,636 Epoch 6/8, Val Loss: 0.9193, Val Accuracy: 0.6780
+2024-06-23 06:44:54,635 Epoch 7/8, Train Loss: 0.3084, Train Accuracy: 0.8750
+2024-06-23 06:46:13,731 Epoch 7/8, Val Loss: 1.0859, Val Accuracy: 0.6593
+2024-06-23 06:58:43,732 Epoch 8/8, Train Loss: 0.2521, Train Accuracy: 0.8988
+2024-06-23 07:00:02,870 Epoch 8/8, Val Loss: 1.1312, Val Accuracy: 0.6710
+
+Training with Guassian Noise of 8 length...
+2024-06-23 07:12:33,001 Epoch 1/8, Train Loss: 1.0731, Train Accuracy: 0.5409
+2024-06-23 07:13:51,964 Epoch 1/8, Val Loss: 0.8822, Val Accuracy: 0.6086
+2024-06-23 07:26:21,679 Epoch 2/8, Train Loss: 0.8091, Train Accuracy: 0.6449
+2024-06-23 07:27:40,646 Epoch 2/8, Val Loss: 0.8160, Val Accuracy: 0.6506
+2024-06-23 07:40:10,578 Epoch 3/8, Train Loss: 0.6963, Train Accuracy: 0.7010
+2024-06-23 07:41:29,650 Epoch 3/8, Val Loss: 0.8096, Val Accuracy: 0.6649
+2024-06-23 07:53:59,434 Epoch 4/8, Train Loss: 0.5896, Train Accuracy: 0.7515
+2024-06-23 07:55:18,403 Epoch 4/8, Val Loss: 0.8384, Val Accuracy: 0.6740
+2024-06-23 08:07:48,450 Epoch 5/8, Train Loss: 0.4813, Train Accuracy: 0.8001
+2024-06-23 08:09:07,285 Epoch 5/8, Val Loss: 0.8488, Val Accuracy: 0.6843
+2024-06-23 08:21:36,760 Epoch 6/8, Train Loss: 0.3916, Train Accuracy: 0.8427
+2024-06-23 08:22:55,476 Epoch 6/8, Val Loss: 0.9628, Val Accuracy: 0.6807
+2024-06-23 08:35:25,252 Epoch 7/8, Train Loss: 0.3028, Train Accuracy: 0.8831
+2024-06-23 08:36:43,973 Epoch 7/8, Val Loss: 1.0283, Val Accuracy: 0.6733
+2024-06-23 08:49:13,569 Epoch 8/8, Train Loss: 0.2338, Train Accuracy: 0.9130
+2024-06-23 08:50:32,359 Epoch 8/8, Val Loss: 1.1194, Val Accuracy: 0.6751
+
+Training with Guassian Noise of 1 length...
+2024-06-23 09:03:02,292 Epoch 1/8, Train Loss: 1.0726, Train Accuracy: 0.5345
+2024-06-23 09:04:21,518 Epoch 1/8, Val Loss: 0.8903, Val Accuracy: 0.6153
+2024-06-23 09:16:52,753 Epoch 2/8, Train Loss: 0.8206, Train Accuracy: 0.6332
+2024-06-23 09:18:14,064 Epoch 2/8, Val Loss: 0.8418, Val Accuracy: 0.6313
+2024-06-23 09:30:46,901 Epoch 3/8, Train Loss: 0.7089, Train Accuracy: 0.6879
+2024-06-23 09:32:06,218 Epoch 3/8, Val Loss: 0.7902, Val Accuracy: 0.6593
+2024-06-23 09:44:37,027 Epoch 4/8, Train Loss: 0.6077, Train Accuracy: 0.7369
+2024-06-23 09:45:56,246 Epoch 4/8, Val Loss: 0.9679, Val Accuracy: 0.6200
+2024-06-23 09:58:27,338 Epoch 5/8, Train Loss: 0.5095, Train Accuracy: 0.7843
+2024-06-23 09:59:47,150 Epoch 5/8, Val Loss: 0.8255, Val Accuracy: 0.6805
+2024-06-23 10:12:18,228 Epoch 6/8, Train Loss: 0.4137, Train Accuracy: 0.8262
+2024-06-23 10:13:37,659 Epoch 6/8, Val Loss: 0.9739, Val Accuracy: 0.6583
+2024-06-23 10:26:07,868 Epoch 7/8, Train Loss: 0.3292, Train Accuracy: 0.8678
+2024-06-23 10:27:27,185 Epoch 7/8, Val Loss: 1.0530, Val Accuracy: 0.6654
+2024-06-23 10:39:57,544 Epoch 8/8, Train Loss: 0.2633, Train Accuracy: 0.8992
+2024-06-23 10:41:16,769 Epoch 8/8, Val Loss: 1.2570, Val Accuracy: 0.6459

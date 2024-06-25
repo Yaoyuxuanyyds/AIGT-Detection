@@ -1,0 +1,66 @@
+2024-06-23 20:41:42,188 
+Processing for feature dimension = 4096
+2024-06-23 20:41:47,049 
+==== TF-IDF Features (dim=4096) ====
+2024-06-23 20:47:26,207 
+==== Final Comparison ====
+2024-06-23 20:47:26,208 TF-IDF Random Forest Accuracy (dim=4096): 0.39291088446748035
+2024-06-23 20:47:26,208 TF-IDF Logistic Regression Accuracy (dim=4096): 0.4280220698879786
+2024-06-23 20:47:26,208 TF-IDF Voting Classifier Accuracy (dim=4096): 0.4330379535194783
+2024-06-23 20:47:26,208 
+Processing for feature dimension = 2048
+2024-06-23 20:47:30,936 
+==== TF-IDF Features (dim=2048) ====
+2024-06-23 20:49:46,140 
+==== Final Comparison ====
+2024-06-23 20:49:46,140 TF-IDF Random Forest Accuracy (dim=2048): 0.39441564955693026
+2024-06-23 20:49:46,140 TF-IDF Logistic Regression Accuracy (dim=2048): 0.42451095134592876
+2024-06-23 20:49:46,140 TF-IDF Voting Classifier Accuracy (dim=2048): 0.42885805049322856
+2024-06-23 20:49:46,140 
+Processing for feature dimension = 1024
+2024-06-23 20:49:50,649 
+==== TF-IDF Features (dim=1024) ====
+2024-06-23 20:51:13,673 
+==== Final Comparison ====
+2024-06-23 20:51:13,674 TF-IDF Random Forest Accuracy (dim=1024): 0.39291088446748035
+2024-06-23 20:51:13,674 TF-IDF Logistic Regression Accuracy (dim=1024): 0.4263501086774787
+2024-06-23 20:51:13,674 TF-IDF Voting Classifier Accuracy (dim=1024): 0.43119879618792845
+2024-06-23 20:51:13,674 
+Processing for feature dimension = 512
+2024-06-23 20:51:18,044 
+==== TF-IDF Features (dim=512) ====
+2024-06-23 20:52:09,467 
+==== Final Comparison ====
+2024-06-23 20:52:09,467 TF-IDF Random Forest Accuracy (dim=512): 0.3827119210834309
+2024-06-23 20:52:09,467 TF-IDF Logistic Regression Accuracy (dim=512): 0.4014378866410299
+2024-06-23 20:52:09,467 TF-IDF Voting Classifier Accuracy (dim=512): 0.40695535863567966
+2024-06-23 20:52:09,467 
+Processing for feature dimension = 256
+2024-06-23 20:52:13,809 
+==== TF-IDF Features (dim=256) ====
+2024-06-23 20:52:57,005 
+==== Final Comparison ====
+2024-06-23 20:52:57,006 TF-IDF Random Forest Accuracy (dim=256): 0.3743521150309313
+2024-06-23 20:52:57,006 TF-IDF Logistic Regression Accuracy (dim=256): 0.3945828456779803
+2024-06-23 20:52:57,006 TF-IDF Voting Classifier Accuracy (dim=256): 0.4039458284567798
+2024-06-23 20:52:57,006 
+Processing for feature dimension = 64
+2024-06-23 20:53:01,165 
+==== TF-IDF Features (dim=64) ====
+2024-06-23 20:53:34,806 
+==== Final Comparison ====
+2024-06-23 20:53:34,806 TF-IDF Random Forest Accuracy (dim=64): 0.3482695201471326
+2024-06-23 20:53:34,806 TF-IDF Logistic Regression Accuracy (dim=64): 0.3579668951680321
+2024-06-23 20:53:34,806 TF-IDF Voting Classifier Accuracy (dim=64): 0.36883464303628155
+2024-06-23 20:53:34,806 
+Processing for feature dimension = 8
+2024-06-23 20:53:39,071 
+==== TF-IDF Features (dim=8) ====
+2024-06-23 20:53:58,234 
+==== Final Comparison ====
+2024-06-23 20:53:58,235 TF-IDF Random Forest Accuracy (dim=8): 0.2775455609429861
+2024-06-23 20:53:58,235 TF-IDF Logistic Regression Accuracy (dim=8): 0.28088948336398595
+2024-06-23 20:53:58,235 TF-IDF Voting Classifier Accuracy (dim=8): 0.2837318174218358
+
+
+
