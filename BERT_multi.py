@@ -9,15 +9,15 @@ from utils import read_multiple_jsonl_files, convert_labels_to_indices
 
 
 # Configure logging
-logging.basicConfig(filename='/root/yyx/Multiple_Detection/logs/train_BERT_multi.log', level=logging.INFO, format='%(asctime)s %(message)s')
+logging.basicConfig(filename='/root/Multi-Vec-Detection/logs/train_BERT_multi.log', level=logging.INFO, format='%(asctime)s %(message)s')
 
 # Define hyperparameters
 MAX_LENGTH = 512
-PARTITIAL = 0.1
+PARTITIAL = 1
 LR = 1e-5
 BATCH_SIZE = 32
 NUM_EPOCHS = 8
-LOG_ITER = 50
+LOG_ITER = 100
 
 # Define label to index mapping
 label_to_index = {'llama': 0, 'human': 1, 'gptneo': 2, 'gpt3re': 3, 'gpt2': 4}
@@ -151,18 +151,18 @@ def evaluate_BERT_multi(model, dataloader, criterion, device):
     return epoch_loss, epoch_acc, per_class_metrics  
 
 # Load BERT tokenizer
-tokenizer = BertTokenizer.from_pretrained('/root/yyx/Multiple_Detection/bert-base-cased')
+tokenizer = BertTokenizer.from_pretrained('/root/Multi-Vec-Detection/bert-base-cased')
 
 # Define maximum length
 max_length = MAX_LENGTH
 
 # Read data from JSONL files
 file_paths = [
-    '/root/yyx/Multiple_Detection/dataset/en_gpt2_lines.jsonl',
-    '/root/yyx/Multiple_Detection/dataset/en_gpt3_lines.jsonl',
-    '/root/yyx/Multiple_Detection/dataset/en_gptneo_lines.jsonl',
-    '/root/yyx/Multiple_Detection/dataset/en_human_lines.jsonl',
-    '/root/yyx/Multiple_Detection/dataset/en_llama_lines.jsonl'
+    '/root/Multi-Vec-Detection/dataset/en_gpt2_lines.jsonl',
+    '/root/Multi-Vec-Detection/dataset/en_gpt3_lines.jsonl',
+    '/root/Multi-Vec-Detection/dataset/en_gptneo_lines.jsonl',
+    '/root/Multi-Vec-Detection/dataset/en_human_lines.jsonl',
+    '/root/Multi-Vec-Detection/dataset/en_llama_lines.jsonl'
 ]  
 texts, labels = read_multiple_jsonl_files(file_paths)
 # Convert labels to indices
@@ -185,7 +185,7 @@ train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True
 test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=True)
 
 # Define model
-pretrained_model_name = '/root/yyx/Multiple_Detection/bert-base-cased'
+pretrained_model_name = '/root/Multi-Vec-Detection/bert-base-cased'
 model = AIGTClassifier(pretrained_model_name, num_classes)
 
 # Define loss function and optimizer
